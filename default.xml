@@ -2,7 +2,11 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".." />
+           fetch="https://android.googlesource.com/" />
+
+  <remote  name="pace"
+           fetch="https://github.com/pacerom" />
+
   <default revision="refs/tags/android-4.3_r3"
            remote="aosp"
            sync-j="4" />
