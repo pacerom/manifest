@@ -45,8 +45,11 @@
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
+  <project path="device/lge/iprj-common" name="device_lge_iprj-common" remote="pace" revision="v4.3" groups="device,p930,vs920" />
   <project path="device/lge/mako" name="device/lge/mako" groups="device,mako" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" />
+  <project path="device/lge/p930" name="device_lge_p930" remote="pace" revision="v4.3" groups="device,p930" />
+  <project path="device/lge/vs920" name="device_lge_vs920" remote="pace" revision="v4.3" groups="device,vs920" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/samsung/maguro" name="device/samsung/maguro" groups="device,tuna" />
   <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" />
@@ -273,6 +276,7 @@
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
+  <project path="kernel/lge/iproj" name="kernel_lge_iproj" remote="pace" revision="v4.3" groups="device,p930,vs920" />
   <project path="libcore" name="libcore" remote="pace" revision="v4.3" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
@@ -394,5 +398,7 @@
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" />
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
+  <project path="vendor/lge/p930" name="vendor_lge_p930" remote="sw" revision="v4.3" groups="device,p930" />
+  <project path="vendor/lge/vs920" name="vendor_lge_vs920" remote="sw" revision="v4.3" groups="device,vs920" />
 
 </manifest>
