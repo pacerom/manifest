@@ -19,7 +19,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="bionic" name="bionic" remote="pace" revision="v4.3" groups="pdk" />
+  <project path="bionic" name="bionic" remote="pace" revision="v4.3plus" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
@@ -193,7 +193,7 @@
   <project path="external/replicaisland" name="platform/external/replicaisland" />
   <project path="external/robolectric" name="platform/external/robolectric" />
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
-  <project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" />
+  <project path="external/sepolicy" name="external_sepolicy" remote="pace" revision="v4.3plus" groups="pdk" />
   <project path="external/skia" name="platform/external/skia" />
   <project path="external/smack" name="platform/external/smack" />
   <project path="external/smali" name="platform/external/smali" />
@@ -225,7 +225,7 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="frameworks_av" remote="pace" revision="v4.3" groups="pdk" />
-  <project path="frameworks/base" name="frameworks_base" remote="pace" revision="v4.3" />
+  <project path="frameworks/base" name="frameworks_base" remote="pace" revision="v4.3plus" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -314,7 +314,7 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pace" revision="v4.3plus" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -385,8 +385,8 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="system_bluetooth" remote="pace" revision="v4.3" groups="pdk" />
-  <project path="system/core" name="system_core" remote="pace" revision="v4.3" groups="pdk" />
-  <project path="system/extras" name="system_extras" remote="pace" revision="v4.3" groups="pdk" />
+  <project path="system/core" name="system_core" remote="pace" revision="v4.3plus" groups="pdk" />
+  <project path="system/extras" name="system_extras" remote="pace" revision="v4.3plus" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
