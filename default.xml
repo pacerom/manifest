@@ -54,6 +54,7 @@
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" />
   <project path="device/lge/p930" name="device_lge_p930" remote="pace" revision="v4.4" groups="device,p930" />
   <project path="device/lge/vs920" name="device_lge_vs920" remote="pace" revision="v4.4" groups="device,vs920" />
+  <project path="device/oppo/find5" name="device_oppo_find5" remote="pace" revision="v4.4" groups="device,find5" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
@@ -307,6 +308,7 @@
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
   <project path="kernel/lge/iproj" name="kernel_lge_iproj" remote="pace" revision="v4.4" groups="device,p930,vs920" />
+  <project path="kernel/oppo/find5" name="kernel_oppo_find5" remote="pace" revision="v4.4" groups="device,find5" />
   <project path="libcore" name="libcore" remote="pace" revision="v4.4" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
@@ -448,5 +450,6 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="vendor/lge/p930" name="vendor_lge_p930" remote="sw" revision="v4.4" groups="device,p930" />
   <project path="vendor/lge/vs920" name="vendor_lge_vs920" remote="sw" revision="v4.4" groups="device,vs920" />
+  <project path="vendor/oppo/find5" name="vendor_oppo_find5" remote="sw" revision="v4.4" groups="device,find5" />
 
 </manifest>
