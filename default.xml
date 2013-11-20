@@ -5,7 +5,8 @@
            fetch="https://android.googlesource.com/" />
 
   <remote  name="pace"
-           fetch="https://github.com/pacerom" />
+           fetch="https://github.com/pacerom"
+           review="review.pacerom.com" />
 
   <default revision="refs/tags/android-4.4_r1"
            remote="aosp"
