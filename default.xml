@@ -2,7 +2,15 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".." />
+           fetch="https://android.googlesource.com/" />
+
+  <remote  name="pace"
+           fetch="https://github.com/pacerom"
+           review="review.pacerom.com" />
+
+  <remote  name="sw"
+           fetch="https://github.com/StatlerAndWaldorf" />
+
   <default revision="refs/tags/android-6.0.0_r1"
            remote="aosp"
            sync-j="4" />
