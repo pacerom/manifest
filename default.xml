@@ -49,9 +49,11 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/lge/hammerhead" name="device/lge/hammerhead" groups="device,hammerhead" />
   <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" />
+  <project path="device/lge/gproj-common" name="device_lge_gproj-common" remote="pace" revision="v4.4" groups="device,e980" />
   <project path="device/lge/iprj-common" name="device_lge_iprj-common" remote="pace" revision="v4.4" groups="device,p930,vs920" />
   <project path="device/lge/mako" name="device/lge/mako" groups="device,mako" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" />
+  <project path="device/lge/e980" name="device_lge_e980" remote="pace" revision="v4.4" groups="device,e980" />
   <project path="device/lge/p930" name="device_lge_p930" remote="pace" revision="v4.4" groups="device,p930" />
   <project path="device/lge/vs920" name="device_lge_vs920" remote="pace" revision="v4.4" groups="device,vs920" />
   <project path="device/oppo/find5" name="device_oppo_find5" remote="pace" revision="v4.4" groups="device,find5" />
@@ -305,6 +307,7 @@
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
+  <project path="kernel/lge/gproj" name="kernel_lge_gproj" remote="pace" revision="v4.4" groups="device,e980" />
   <project path="kernel/lge/iproj" name="kernel_lge_iproj" remote="pace" revision="v4.4" groups="device,p930,vs920" />
   <project path="kernel/oppo/find5" name="kernel_oppo_find5" remote="pace" revision="v4.4" groups="device,find5" />
   <project path="libcore" name="libcore" remote="pace" revision="v4.4" />
@@ -445,6 +448,7 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
+  <project path="vendor/lge/e980" name="vendor_lge_e980" remote="sw" revision="v4.4" groups="device,e980" />
   <project path="vendor/lge/p930" name="vendor_lge_p930" remote="sw" revision="v4.4" groups="device,p930" />
   <project path="vendor/lge/vs920" name="vendor_lge_vs920" remote="sw" revision="v4.4" groups="device,vs920" />
   <project path="vendor/oppo/find5" name="vendor_oppo_find5" remote="sw" revision="v4.4" groups="device,find5" />
