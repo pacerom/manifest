@@ -452,5 +452,6 @@
   <project path="vendor/lge/p930" name="vendor_lge_p930" remote="sw" revision="v4.4" groups="device,p930" />
   <project path="vendor/lge/vs920" name="vendor_lge_vs920" remote="sw" revision="v4.4" groups="device,vs920" />
   <project path="vendor/oppo/find5" name="vendor_oppo_find5" remote="sw" revision="v4.4" groups="device,find5" />
+  <project path="vendor/pace" name="vendor_pace" remote="pace" revision="v4.4" />
 
 </manifest>
