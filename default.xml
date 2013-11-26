@@ -304,9 +304,9 @@
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" />
   <project path="hardware/ril" name="hardware_ril" remote="pace" revision="v4.4" groups="pdk" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
-  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
+  <project path="hardware/ti/omap3" name="hardware_ti_omap3" remote="pace" revision="v4.4" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
-  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
+  <project path="hardware/ti/wlan" name="hardware_ti_wlan" remote="pace" revision="v4.4" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
   <project path="kernel/bn/encore" name="kernel_bn_encore" remote="pace" revision="v4.4" groups="device,encore" />
   <project path="kernel/lge/gproj" name="kernel_lge_gproj" remote="pace" revision="v4.4" groups="device,e980" />
