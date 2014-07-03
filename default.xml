@@ -58,6 +58,7 @@
   <project path="device/lge/p930" name="device_lge_p930" remote="pace" revision="v4.4" groups="device,p930" />
   <project path="device/lge/vs920" name="device_lge_vs920" remote="pace" revision="v4.4" groups="device,vs920" />
   <project path="device/oppo/find5" name="device_oppo_find5" remote="pace" revision="v4.4" groups="device,find5" />
+  <project path="device/qcom/common" name="device_qcom_common" remote="pace" revision="v4.4" groups="qcom" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
@@ -218,6 +219,7 @@
   <project path="external/protobuf" name="platform/external/protobuf" groups="pdk" />
   <project path="external/qemu" name="platform/external/qemu" />
   <project path="external/qemu-pc-bios" name="platform/external/qemu-pc-bios" />
+  <project path="external/qrngd" name="external_qrngd" groups="qcom" remote="pace" revision="v4.4" />
   <project path="external/regex-re2" name="platform/external/regex-re2" />
   <project path="external/replicaisland" name="platform/external/replicaisland" />
   <project path="external/robolectric" name="platform/external/robolectric" />
@@ -241,7 +243,7 @@
   <project path="external/tagsoup" name="platform/external/tagsoup" />
   <project path="external/tcpdump" name="platform/external/tcpdump" />
   <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" />
-  <project path="external/tinyalsa" name="platform/external/tinyalsa" groups="pdk" />
+  <project path="external/tinyalsa" name="external_tinyalsa" remote="pace" revision="v4.4" groups="pdk" />
   <project path="external/tinycompress" name="platform/external/tinycompress" groups="pdk" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" />
@@ -297,14 +299,17 @@
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
   <project path="hardware/qcom/display" name="hardware_qcom_display" remote="pace" revision="v4.4" groups="qcom" />
   <project path="hardware/qcom/display-caf" name="hardware_qcom_display-caf" remote="pace" revision="v4.4" groups="qcom" />
+  <project path="hardware/qcom/display-caf-new" name="hardware_qcom_display-caf-new" remote="pace" revision="v4.4" groups="qcom" />
   <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="pace" revision="v4.4" groups="qcom" />
-  <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" />
+  <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" remote="pace" revision="v4.4" groups="qcom" />
   <project path="hardware/qcom/media" name="hardware_qcom_media" remote="pace" revision="v4.4" groups="qcom" />
+  <project path="hardware/qcom/media-caf" name="hardware_qcom_media-caf" remote="pace" revision="v4.4" groups="qcom" />
+  <project path="hardware/qcom/media-caf-new" name="hardware_qcom_media-caf-new" remote="pace" revision="v4.4" groups="qcom" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" />
-  <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom" />
+  <project path="hardware/qcom/power" name="hardware_qcom_power" remote="pace" revision="v4.4" groups="qcom" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
-  <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" />
+  <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="pace" revision="v4.4" groups="qcom_wlan" />
   <project path="hardware/ril" name="hardware_ril" remote="pace" revision="v4.4" groups="pdk" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
   <project path="hardware/ti/omap3" name="hardware_ti_omap3" remote="pace" revision="v4.4" />
@@ -440,7 +445,7 @@
   <project path="sdk" name="platform/sdk" />
   <project path="system/core" name="system_core" remote="pace" revision="v4.4" groups="pdk" />
   <project path="system/extras" name="system_extras" remote="pace" revision="v4.4" groups="pdk" />
-  <project path="system/media" name="platform/system/media" groups="pdk" />
+  <project path="system/media" name="system_media" remote="pace" revision="v4.4" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="system/vold" name="platform/system/vold" groups="pdk" />
