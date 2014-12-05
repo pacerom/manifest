@@ -62,6 +62,8 @@
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" clone-depth="1" />
   <project path="device/moto/shamu" name="device/moto/shamu" groups="device,shamu" />
   <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu" clone-depth="1" />
+  <project path="device/qcom/common" name="device_qcom_common" remote="pace" groups="qcom" revision="v5.0" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="pace" groups="qcom" revision="v5.0" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" />
@@ -345,20 +347,28 @@
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" />
   <project path="hardware/nvidia/tegra124" name="platform/hardware/nvidia/tegra124" groups="tegra124" />
-  <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio" />
-  <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
-  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="qcom,qcom_display" />
+  <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="pace" revision="v5.0" groups="qcom,qcom_audio" />
+  <project path="hardware/qcom/audio-caf/msm8960" name="hardware_qcom_audio" remote="pace" revision="v5.0-caf-8960" groups="qcom,qcom_audio" />
+  <project path="hardware/qcom/audio-caf/msm8226" name="hardware_qcom_audio" remote="pace" revision="v5.0-caf-8226" groups="qcom,qcom_audio" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="hardware_qcom_audio" remote="pace" revision="v5.0-caf-8974" groups="qcom,qcom_audio" />
+  <project path="hardware/qcom/bt" name="hardware_qcom_bt" remote="pace" revision="v5.0" groups="qcom" />
+  <project path="hardware/qcom/display" name="hardware_qcom_display" remote="pace" revision="v5.0" groups="qcom,qcom_display" />
+  <project path="hardware/qcom/display-caf/msm8960" name="hardware_qcom_display" remote="pace" revision="v5.0-caf-8960" groups="qcom,qcom_display" />
+  <project path="hardware/qcom/display-caf/msm8226" name="hardware_qcom_display" remote="pace" revision="v5.0-caf-8226" groups="qcom,qcom_display" />
+  <project path="hardware/qcom/display-caf/msm8974" name="hardware_qcom_display" remote="pace" revision="v5.0-caf-8974" groups="qcom,qcom_display" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps" />
-  <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" />
-  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom" />
+  <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" remote="pace" revision="v5.0" groups="qcom" />
+  <project path="hardware/qcom/media" name="hardware_qcom_media" remote="pace" revision="v5.0" groups="qcom" />
+  <project path="hardware/qcom/media-caf/msm8960" name="hardware_qcom_media" remote="pace" revision="v5.0-caf-8960" groups="qcom" />
+  <project path="hardware/qcom/media-caf/msm8226" name="hardware_qcom_media" remote="pace" revision="v5.0-caf-8226" groups="qcom" />
+  <project path="hardware/qcom/media-caf/msm8974" name="hardware_qcom_media" remote="pace" revision="v5.0-caf-8974" groups="qcom" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/msm8x26" name="platform/hardware/qcom/msm8x26" groups="qcom_msm8x26" />
   <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27" />
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" />
   <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" />
-  <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
-  <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" />
+  <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" groups="qcom_wlan" remote="pace" revision="v5.0" />
   <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
